@@ -26,18 +26,13 @@ body {
 .logo {
     text-align: start;
     margin-bottom: 20px;
-    margin-left: 10px;
-    
-     
+    margin-left: -10px;
+
 }
 
-/* .desktop-logo{
-    width: 150px;
-    
-} */
 
 .logo img {
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 
@@ -47,10 +42,10 @@ body {
 }
 
 
-/* HAMZA */
+
 * {
     box-sizing: border-box;
-    
+
 }
 
 
@@ -59,28 +54,6 @@ body {
     list-style: none;
 }
 
-/* .left-menu {
-    background-color: blue;
-    max-width: 20%;
-     float: left; 
-    height: 100vh ;
-    justify-content: flex-start;
-}
-
-.navbar {
-    background-color: grey;
-    max-width: 80%;
-    justify-content: end;
-    float: right; 
-    justify-content: flex-end;
-
-} */
-
-/* #navbarNav{
-    text-align: left;
-    justify-content: left;
-    align-items: start;
-} */
 
 .left {
     background-color: navy;
@@ -96,8 +69,8 @@ body {
 
 
 @media (min-width:768px) {
-    .mobile-logo{
-        display:none;
+    .mobile-logo {
+        display: none;
     }
 
     .left-container {
@@ -109,15 +82,17 @@ body {
         width: 25%;
         height: 100vh;
     }
-    .right-side_content{
+
+    .right-side_content {
         margin-left: 25%;
         width: 75%;
     }
-    
+
 }
+
 @media (max-width:767px) {
-    .desktop-logo{
-        display:none;
+    .desktop-logo {
+        display: none;
     }
 
 

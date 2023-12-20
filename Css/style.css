@@ -27,7 +27,14 @@ body {
     text-align: start;
     margin-bottom: 20px;
     margin-left: 10px;
+    
+     
 }
+
+/* .desktop-logo{
+    width: 150px;
+    
+} */
 
 .logo img {
     width: 100px;
@@ -85,6 +92,8 @@ body {
     list-style-type: none;
     color: white;
 }
+
+
 
 @media (min-width:768px) {
     .mobile-logo{

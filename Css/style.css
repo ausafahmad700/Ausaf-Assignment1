@@ -19,6 +19,7 @@ body {
 
 .left-container a:hover {
     background-color: #ddd;
+    width: 250px;
     color: black;
 }
 
